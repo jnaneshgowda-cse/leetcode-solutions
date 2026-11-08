@@ -7,6 +7,7 @@ class Solution {
             reverse=reverse+s.charAt(i);
         }
          if(s.equals(reverse)){
+            
             return true;
          }
          return false;
